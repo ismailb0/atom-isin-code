@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Display Asset Name",
+        "command": "atom-isin-code:displayAssetName"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Atom ISIN Code",
+          "submenu": [
+            {
+              "label": "Display Asset Name",
+              "command": "atom-isin-code:displayAssetName"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
